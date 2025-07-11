@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickBite - Food Delivery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">QuickBite</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Fastest Food Delivery in Your City</h1>
+    <p>Delicious meals delivered fresh & hot to your doorstep.</p>
+    <a href="#menu" class="btn">Order Now</a>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Pizza">
+        <h3>Margherita Pizza</h3>
+        <p>Cheesy and delicious. Rs. 199</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Burger">
+        <h3>Veggie Burger</h3>
+        <p>Crispy and healthy. Rs. 149</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Noodles">
+        <h3>Hakka Noodles</h3>
+        <p>Spicy and sizzling. Rs. 129</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="offers" id="offers">
+    <h2>Special Offer</h2>
+    <p>🔥 Get 20% OFF on your first order! Use code: FIRST20</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your email" required />
+
+      <label for="address">Address</label>
+      <textarea id="address" rows="4" placeholder="Your delivery address"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 QuickBite. All rights reserved.</p>
+  </footer>
+</body>
+</html>
